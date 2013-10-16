@@ -30,5 +30,8 @@ public class NumeroEntero {
     public void decrementar() {
         this.valor--;
     }
-
+    
+    public boolean numValido(){
+    	return false;
+    }
 }

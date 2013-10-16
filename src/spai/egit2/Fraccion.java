@@ -67,4 +67,8 @@ public class Fraccion {
         return (double) numerador / denominador;
     }
 
+	public boolean comparar(Fraccion fraccion2) {
+		return false;
+	}
+
 }

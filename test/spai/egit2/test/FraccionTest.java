@@ -44,5 +44,12 @@ public class FraccionTest {
     public void testDecimal() {
         assertEquals(2.0/3.0, fraccion.decimal(), 1e-10);
     }
+    
+    @Test
+    public void testComparar(){//Si actual es mayor devuelve true. Devolverá false si es menor o igual.
+    	Fraccion fraccion1 = new Fraccion(1, 1);
+    	Fraccion fraccion2 = new Fraccion(6, 2);
+    	assertEquals(false, fraccion1.comparar(fraccion2));
+    }
 
 }

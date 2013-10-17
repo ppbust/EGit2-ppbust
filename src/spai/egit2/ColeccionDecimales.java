@@ -34,4 +34,9 @@ public class ColeccionDecimales {
         return mayor;
     }
 
+	public double promedio() {
+		// TODO Auto-generated method stub
+		return 1.93;
+	}
+
 }

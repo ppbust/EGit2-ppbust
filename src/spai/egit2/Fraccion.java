@@ -68,7 +68,7 @@ public class Fraccion {
     }
 
 	public boolean comparar(Fraccion fraccion2) {
-		return false;
+		return this.decimal() == fraccion2.decimal();
 	}
 
 }

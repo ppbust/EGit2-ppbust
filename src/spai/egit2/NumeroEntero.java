@@ -22,7 +22,6 @@ public class NumeroEntero {
     	else{
     		this.valor = 0;
     	}
-        
     }
 
     public void incrementar() {

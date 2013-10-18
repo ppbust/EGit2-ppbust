@@ -16,7 +16,13 @@ public class NumeroEntero {
     }
 
     private void setValor(int valor) {
-        this.valor = valor;
+    	if(numValido()){
+    		this.valor = valor;
+    	}
+    	else{
+    		this.valor = 0;
+    	}
+        
     }
 
     public void incrementar() {
@@ -30,5 +36,12 @@ public class NumeroEntero {
     public void decrementar() {
         this.valor--;
     }
-
+    
+    public boolean numValido(){
+    	boolean result = false;
+    	if((this.getValor()>=0)&&(this.getValor()<=100)){
+    		result = true;
+    	}
+    	return result;
+    }
 }

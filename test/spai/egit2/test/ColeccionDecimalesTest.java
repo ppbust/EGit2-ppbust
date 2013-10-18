@@ -25,5 +25,10 @@ public class ColeccionDecimalesTest {
     public void testMayor() {
         assertEquals(3.4, this.numeros.mayor(), 1e-10);
     }
+    
+    @Test
+    public void testPromedio() {
+    	assertEquals(1.93, this.numeros.promedio(), 1e-10);
+    }
 
 }

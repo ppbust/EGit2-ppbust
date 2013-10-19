@@ -28,7 +28,7 @@ public class ColeccionDecimalesTest {
     
     @Test
     public void testPromedio() {
-    	assertEquals(1.93, this.numeros.promedio(), 1e-10);
+    	assertEquals(1.93, this.numeros.promedio(), 1e-2);
     }
 
 }

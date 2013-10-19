@@ -35,8 +35,7 @@ public class ColeccionDecimales {
     }
 
 	public double promedio() {
-		// TODO Auto-generated method stub
-		return 1.93;
+        return this.suma() / this.coleccion.size();
 	}
 
 }
